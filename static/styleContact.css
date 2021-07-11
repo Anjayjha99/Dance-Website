@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-size: 55px;
+    margin: 20px 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.inputContact{
+    display: block;
+    margin: 30px auto;
+    padding: 12px 7px;
+    font-size: 25px;
+    border: 2px solid rgb(129, 180, 154);
+    width: 50%;
+    border-radius: 10px;
+    outline: none;
+}
+.con{
+    display: block;
+    margin: 10px auto;
+    padding: 12px 7px;
+    font-size: 25px;
+    border: 2px solid rgb(129, 180, 154);
+    width: 50%;
+    border-radius: 10px;
+    outline: none;
+}
+#desc{
+    font-size: 25px;
+    color: rgb(27, 26, 26);
+    margin-left: 25%;
+}
+.btn{
+    display: block;
+    margin: 25px auto;
+    padding: 13px 45px;
+    border-radius: 10px;
+    border: 2px solid #50866b;
+    font-size: 20px;
+    background-color: beige;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(60, 122, 91);
+    color: white;
+    
+}

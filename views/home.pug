@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts 
+    script(src="../static/index.js") 
+
+block style 
+    style 
+            include ../static/style.css
+
+block content
+    section#intro 
+            h1 Welcome to Anjay's Dance Academy 
+            h2 Eat Sleep Dance Repeat!!
+    section#mission
+            h2 Our Mission
+            div#flexi
+                div.card
+                    h3 Dance Perfection
+                    div.card-box
+                        div.card-img
+                            img(src="/static/images/img1.jpg")
+                        div.card-content
+                            p This is the best dance academy of the universe.
+
+                div.card
+                    h3 Dance the way you like
+                    div.card-box
+                        div.card-img
+                            img(src="/static/images/img2.png")
+                        div.card-content
+                            p Select and learn any dance format from the variety of different dance categories. 
+
+                div.card
+                    h3 Expert Teaching
+                    div.card-box
+                        div.card-img
+                            img(src="/static/images/img3.jpg")
+                        div.card-content
+                            p Learn and show your moves to our expert teachers. We believe that with this expert 
+                            |   teaching sky is the limit for you all!
+    section#sponsors 
+           h2 Our Sponsors 
+           div#spimage
+            img(src="../static/images/sp-1.png" alt ="Sponsors image" id="sp")
+            img(src="../static/images/sp2.jpg" alt ="Sponsors image" id="sp")
+            img(src="../static/images/sp3.png" alt ="Sponsors image" id="sp")
+            img(src="../static/images/sp4.png" alt ="Sponsors image" id="sp")

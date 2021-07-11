@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#navbar{
+    height: 80px;
+    background-color: rgb(156, 55, 55);
+    display: flex;
+    position: sticky;
+    top: 0px;
+
+}
+#logoimg{
+    height: 58px;
+    display: inline;
+    border-radius: 45px;
+    margin: 10px 28px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#intro{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    height: 350px;
+    width: 100%;
+    background: center/cover no-repeat url("../static/images/bg.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#intro h1{
+    font-size: 45px;
+}
+#intro h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+#mission{
+    background-color: blanchedalmond;
+    height: 450px;
+    width: 100%;
+}
+#mission h2{
+    font-size: 38px;
+    padding: 25px 0px;
+    text-align: center;
+}
+#flexi{
+    display: flex;
+}
+.card{
+    border: 2px solid black;
+    background-color: rgb(223, 204, 204);
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 250px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    height: 150px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.card-img img{
+    height: inherit;
+    width: 120px;
+    border-radius: 75px;
+}
+.card-content p{
+    font-size: 16px;
+    
+}
+#sponsors h2{
+    font-size: 38px;
+    padding: 25px 0px;
+    text-align: center;
+}
+#sponsors{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(247, 177, 177);
+}
+#spimage{
+    display: flex;
+    justify-content: space-between;
+}
+#sp{
+    height: 200px;
+    margin: 20px 25px;
+    border-radius: 100px;
+}
+#foot{
+    height: 70px;
+    background-color: black;
+}
+#foot p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2%;
+}
